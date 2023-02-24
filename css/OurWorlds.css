@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    /* background-image: url(https://discoverylandco.com/imager/images/9997/Bakers-Bay-Golf-and-Ocean-Club_35d31212c7a2d4dccdff99afa3f88af5.png); */
+    background-size: cover;
+   background-position: center center;
+    height: 65vh;
+}
+.nav-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 55px; 
+    border-radius: 50px;
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    list-style: none;  
+    margin: 2rem 2rem;
+    
+}
+
+li:hover{
+    border-bottom: 1px solid white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.brand{
+    padding-left: 10px;
+}
+
+.brand-up{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.brand-down{
+    font-weight: 100;
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+.sort{
+    transform: scaleX(-1);
+}
+
+.h1-gallery{
+    position:relative;
+    font-weight: normal;
+    top: 4.5rem;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 70px;
+}
+
+
+
+.card img{
+    width: 33.3vw;
+
+}
+
+
+.cards-top{
+    display: flex;
+
+    flex-flow: row;
+}
+
+article{
+    background-color: black;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-text{
+    padding: 2vw;
+
+}
+
+footer{
+    background-color: rgb(240, 232, 232) !important;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.footer-left img{
+    width: 55px;
+    border-radius: 50px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-menu ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+
+}
+
+.footer-cc{
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.posts{
+    width: 40vw;
+    height: 30vh;
+    background-color: white;
+}
